@@ -5,7 +5,10 @@ html {
 main {
     display: flex;
 }
-
+header{
+    background-color: black;
+    color: aliceblue;
+}
 header h2 {
     margin-top: 0.2rem;
     opacity: 0.6;
