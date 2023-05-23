@@ -1,6 +1,19 @@
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-main {
 
+main {
+    display: flex;
+}
+#formulario, #itens {
+    width: 200px;
+}
+
+#itens {
+    min-height: 300px;
+}
+
+section > h1 { 
+    /* h1 filhos de section */
+    margin-top: 0;
 }
