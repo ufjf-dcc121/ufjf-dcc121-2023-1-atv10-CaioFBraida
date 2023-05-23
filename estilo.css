@@ -1,0 +1,30 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+header h2 {
+    margin-top: 0.2rem;
+    opacity: 0.6;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+#formulario, #itens {
+    width: 200px;
+}
+
+#itens {
+    min-height: 300px;
+}
+
+section > h1 { 
+    /* h1 filhos de section */
+    margin-top: 0;
+    /* rem- tamanho da font do html- root - rem deixa adptavel a pesso se por em px n adpta*/
+    font-size: 1.2rem;
+}
