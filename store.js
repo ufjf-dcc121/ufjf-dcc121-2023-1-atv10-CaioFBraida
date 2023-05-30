@@ -8,6 +8,10 @@ export function adicionar(valor) {
     store.estado.push(valor);
 }
 
+export function remover(valor) {
+    store.estado.pop();
+}
+
 export function getItens() {
     return [...store.estado]; // [.. dasd] -> copia de vetor
 }
